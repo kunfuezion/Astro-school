@@ -1,11 +1,28 @@
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
+---
+const pageTitle = "Bob Loblaw's Law Blog";
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Windover High School</title>
+	</head>
+	<body>
+		<a href="/">Home</a>
+		<a href="/about/">About</a>
+		<a href="/blog/">Blog</a>
 
-<body>
-	<h1>The Revision (blog)</h1>
-	<h2>The Revision is an amazing newsletter, crafted by the students, for the students.</h2>
-<h2>Seriously! Tonia barely even lays it out for them!</h2>
-
-	<p>Lots to see here, so stay tuned!</p>
-</body>
+		<h1>{pageTitle}</h1>
+		<h2>
+			The Revision is an amazing newsletter, crafted by the students, for the
+			students.
+		</h2>
+		<h2>Seriously! Tonia barely even lays it out for them!</h2>
+		<p>Lots to see here, so stay tuned!</p>
+		<ul>
+			<li><a href="/posts/post-1/">Post 1</a></li>
+			<li><a href="/posts/post-2/">Post 2</a></li>
+			<li><a href="/posts/post-3/">Post 3</a></li>
+		</ul>
+	</body>
+</html>
